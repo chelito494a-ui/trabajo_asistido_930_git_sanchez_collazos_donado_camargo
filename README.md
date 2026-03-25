@@ -72,25 +72,25 @@ Esta estrategia se implementó mediante dos fases. En la primera fase, denominad
 </p>
    
    #### - Sensibilidad (Recall):
-    <p>
+   <p>
       Definida como la proporción de verdaderos positivos sobre el total de casos positivos reales. Esta métrica adquiere prioridad crítica para lesiones malignas como el melanoma, donde un falso negativo (no detectar una lesión maligna) puede tener consecuencias fatales para el paciente.
       </p>
    
    #### - Especificidad:
-    <p>
+   <p>
        Definida como la proporción de verdaderos negativos sobre el total de casos negativos reales. Su relevancia radica en evitar procedimientos invasivos innecesarios (biopsias) y reducir la ansiedad generada por falsas alarmas.
        ([Aqui se puede insertar un diagrama que explique visualmente los conceptos de verdaderos positivos, falsos positivos, verdaderos negativos y falsos negativos utilizando una matriz de confusión])
        </p>
 
    #### - Área bajo la curva ROC (AUC-ROC):
-     <p>
+   <p>
         Esta métrica evalúa el poder discriminatorio del modelo independientemente del umbral de decisión seleccionado, proporcionando una medida integral de su capacidad para distinguir entre clases.
      ([Aqui se puede insertar una gráfica que muestre una curva ROC típica, resaltando el área bajo la curva y explicando su interpretación])
      </p>
 
  
    #### - Valor Predictivo Negativo (VPN):
-    <p>
+   <p>
       Definido como la proporción de verdaderos negativos sobre el total de negativos clasificados por el modelo. Esta métrica resulta particularmente relevante para un sistema de triaje, pues indica la confianza que puede depositarse cuando el modelo clasifica una lesión como benigna.
       El sistema desarrollado no pretende reemplazar al dermatólogo, sino constituirse como una herramienta de apoyo diagnóstico que permita priorizar casos sospechosos, reducir la carga cognitiva del especialista y acelerar la derivación de lesiones que requieren atención inmediata.
       ([Aqui se puede insertar un diagrama de flujo que ilustre el flujo de trabajo propuesto: desde la captura de imagen, pasando por el sistema de triaje basado en CNN, hasta la derivación a especialista según el nivel de sospecha])
