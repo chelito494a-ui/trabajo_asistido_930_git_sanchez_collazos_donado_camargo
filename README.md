@@ -8,6 +8,7 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 
 
 # La Ciencia Detrás del Proyecto: Fundamentos Teóricos y Contexto
+---
 
 ## 1. El Problema Clínico: Diagnóstico Visual en Dermatología
 ### Abordaje tradicional del diagnóstico dermatológico
@@ -27,7 +28,7 @@ En tercer lugar, las barreras de acceso a atención especializada constituían u
 
 ([Aqui se puede insertar una infografía que compare las tasas de supervivencia del melanoma según el estadio de detección, evidenciando la importancia crítica del diagnóstico temprano])
 </p>
-
+---
 
 ## 2. Fundamentos Técnicos: Visión por Computadora y Aprendizaje Profundo
 ### Redes Neuronales Convolucionales (CNN)
@@ -59,7 +60,7 @@ Esta estrategia se implementó mediante dos fases. En la primera fase, denominad
 ([Aqui se puede insertar una imagen compuesta que muestre múltiples variaciones aumentadas de una misma lesión dermatológica original: rotación, reflejo, ajuste de brillo, distorsión elástica, etc.])
 </p>
 
-
+---
 ## 3. Métricas de Evaluación en Contexto Clínico
 <p>
    La evaluación del sistema desarrollado no se limitó a métricas generalistas como la precisión global, sino que se orientó hacia indicadores con significado clínico específico, reconociendo que las consecuencias de los errores diagnósticos no son simétricas.
