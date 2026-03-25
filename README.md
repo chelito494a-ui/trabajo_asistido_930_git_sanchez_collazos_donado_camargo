@@ -1,5 +1,4 @@
-![Banner](<img width="1920" height="1080" alt="Banner Git" src="https://github.com/user-attachments/assets/34909f03-e843-4b11-8373-ec01a2fa0b02" />
-)
+![Banner](Banner%20.png)
 ## Detección de enfermedades en la piel
 ### Realizado por los investigadores Jhonier Francisco Guerrero Gaviria y Brayan David Loaiza Burbano
 <p >
