@@ -26,8 +26,6 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
  El enfoque tradicional presentaba múltiples limitaciones: alta variabilidad inter‑observador (concordancias del 60‑70% en lesiones pigmentadas), dependencia de la experiencia del especialista, barreras de acceso en zonas con escasez de dermatólogos y diagnóstico tardío. El melanoma detectado en etapa temprana alcanza >95% de supervivencia a 5 años, mientras que en etapas avanzadas la supervivencia cae por debajo del 20%.
 </p>
 
-![Logo](https://conecta.msd.com.ar/wp-content/uploads/sites/11/2022/10/melanoma-grafico.jpg)
-
 <div align="center">
   <img src="https://conecta.msd.com.ar/wp-content/uploads/sites/11/2022/10/melanoma-grafico.jpg" width="70%" alt="Supervivencia del melanoma por estadio" />
   <br />
@@ -41,8 +39,6 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 <p>
    El sistema se fundamenta en CNN, arquitecturas inspiradas en el córtex visual. Las capas convolucionales detectan patrones jerárquicos: desde bordes y texturas en las primeras capas hasta estructuras dermatoscópicas complejas (redes pigmentarias, glóbulos) en las más profundas. Las capas de pooling reducen dimensionalidad y las capas completamente conectadas realizan la clasificación final.
 </p>
-
-![Logo](https://github.com/nelsondonado/Ciencia-de-datos/blob/main/proceso.png)
 
 <div align="center">
   <img src="https://github.com/nelsondonado/Ciencia-de-datos/blob/main/proceso.png" width="80%" alt="Diagrama de arquitectura CNN" />
@@ -95,15 +91,13 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 
 <p>
 
-   
-![Texto alternativo](MEMC_Matriz_2.jpg)
+
 <div align="center">
   <img src="MEMC_Matriz_2.jpg" width="55%" alt="Matriz de confusión del modelo" />
   <br />
   <em>Matriz de confusión obtenida en el conjunto de validación.</em>
 </div>
 
-([Aqui se puede insertar una gráfica de curva ROC]): https://sl.bing.net/izGiltHtSkm
 <div align="center">
   <img src="https://sl.bing.net/izGiltHtSkm" width="55%" alt="Curva ROC multiclase" />
   <br />
