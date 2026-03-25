@@ -46,15 +46,18 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
   <em>Arquitectura típica de una Red Neuronal Convolucional. Fuente: elaboración propia.</em>
 </div> 
 
+
 ### Transfer Learning: Fundamentos y aplicación
 <p>
    Dada la escasez de datos médicos etiquetados, se emplea transfer learning: se parte de redes pre‑entrenadas en ImageNet. En una primera fase (feature extraction) se congelan las capas convolucionales y se entrenan solo las capas clasificadoras. En una segunda fase (fine‑tuning) se descongelan selectivamente algunas capas para ajustarlas al dominio dermatológico con tasas de aprendizaje reducidas.
 </p>
+
 <div align="center">
-  <img src="https://www.researchgate.net/publication/356770285/figure/fig1/AS:1098488339279878@1638911437359/Figura-3-Proceso-de-aprendizaje-machine-learning-y-transfer-learning.png" width="80%" alt="Esquema de Transfer Learning" />
+  <img src="Figura-3-Proceso-de-aprendizaje-machine-learning-y-transfer-learning.png" width="80%" alt="Esquema de Transfer Learning" />
   <br />
-  <em>Proceso de transfer learning: desde una red pre‑entrenada en ImageNet hasta la adaptación al dominio dermatológico. Fuente: ResearchGate.</em>
+  <em>Proceso de transfer learning: desde una red pre‑entrenada en ImageNet hasta la adaptación al dominio dermatológico.</em>
 </div>
+
 
 ### Aumento de datos como estrategia de regularización
 <p>
@@ -98,8 +101,9 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
   <em>Matriz de confusión obtenida en el conjunto de validación.</em>
 </div>
 
+
 <div align="center">
-  <img src="https://sl.bing.net/izGiltHtSkm" width="55%" alt="Curva ROC multiclase" />
+  <img src="CURVAroc.jpeg" width="55%" alt="Curva ROC multiclase" />
   <br />
   <em>Curva ROC y área bajo la curva (AUC) para cada clase.</em>
 </div>
