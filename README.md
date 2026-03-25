@@ -14,9 +14,12 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 ### Abordaje tradicional del diagnóstico dermatológico
 <p >
    Previo al desarrollo de este proyecto, el diagnóstico de enfermedades cutáneas se fundamentaba en un proceso clínico que combinaba la inspección visual directa, la evaluación de criterios clínicos estandarizados y, en casos de sospecha, el análisis histopatológico mediante biopsia. Los especialistas realizaban la evaluación de lesiones cutáneas utilizando dermatoscopios, dispositivos de aumento que permiten visualizar estructuras subepidérmicas no apreciables a simple vista, aplicando sistemas de clasificación como el criterio ABCD (Asimetría, Bordes, Color, Diámetro) para la identificación de melanomas.
-
-([Aqui se puede insertar una imagen que muestre la comparación entre una lesión observada a simple vista versus la misma lesión observada con dermatoscopio, evidenciando las estructuras subepidérmicas que son visibles únicamente con aumento])
 </p>
+<div align="center">
+  <img src="https://github.com/nelsondonado/Ciencia-de-datos/blob/main/lesion.jpg" width="35%"/>
+  &nbsp;
+  <img src="https://github.com/nelsondonado/Ciencia-de-datos/blob/main/lesion_dermatoscopio.jpeg" width="35%"/>
+</div>
 
 ### Limitaciones del enfoque tradicional
 <p>
