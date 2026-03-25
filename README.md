@@ -39,7 +39,7 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 ([Aqui se puede insertar un diagrama de arquitectura CNN]):
 </p>
 
-![Logo](https://sl.bing.net/j3Av29zM0M8)
+![Logo](https://github.com/nelsondonado/Ciencia-de-datos/blob/main/proceso.png)
 
 ### Transfer Learning: Fundamentos y aplicación
 <p>
