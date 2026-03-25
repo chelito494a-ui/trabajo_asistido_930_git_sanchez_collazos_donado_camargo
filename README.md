@@ -95,20 +95,6 @@ Esta estrategia se implementó mediante dos fases. En la primera fase, denominad
       ([Aqui se puede insertar un diagrama de flujo que ilustre el flujo de trabajo propuesto: desde la captura de imagen, pasando por el sistema de triaje basado en CNN, hasta la derivación a especialista según el nivel de sospecha])
       </p>
 
-### Referencias (son las del punto 2, la idea es ponerlas al final del repositorio):
-<p>
-   Esteva, A., Kuprel, B., Novoa, R. A., Ko, J., Swetter, S. M., Blau, H. M., & Thrun, S. (2017). Dermatologist-level classification of skin cancer with deep neural networks. Nature, 542(7639), 115-118.
-
-Haenssle, H. A., Fink, C., Schneiderbauer, R., Toberer, F., Buhl, T., Blum, A., ... & Uhlmann, L. (2018). Man against machine: diagnostic performance of a deep learning convolutional neural network for dermal melanoma recognition in comparison to 58 dermatologists. Annals of Oncology, 29(8), 1836-1842.
-
-Rajpurkar, P., Chen, E., Banerjee, O., & Topol, E. J. (2022). AI in health and medicine. Nature Medicine, 28(1), 31-38.
-
-Tschandl, P., Codella, N., Akay, B. N., Argenziano, G., Braun, R. P., Cabo, H., ... & Kittler, H. (2020). Comparison of the accuracy of human readers versus machine-learning algorithms for pigmented skin lesion classification: an open, web-based, international, diagnostic study. The Lancet Digital Health, 2(1), e28-e37.
-
-Brinker, T. J., Hekler, A., Enk, A. H., Berking, C., Haferkamp, S., Hauschild, A., ... & Utikal, J. S. (2019). A convolutional neural network trained with dermoscopic images performed on par with 145 dermatologists in a clinical melanoma classification scenario. European Journal of Cancer, 111, 48-54.
-</p>
-
-
 
 
 
