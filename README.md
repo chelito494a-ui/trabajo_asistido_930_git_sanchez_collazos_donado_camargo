@@ -82,7 +82,9 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 
 
 <p>
-   ([Aqui se puede insertar un diagrama de matriz de confusión]): https://dialektico.com/wp-content/uploads/2025/01/MEMC_Matriz_2.jpg
+
+   
+![Texto alternativo](MEMC_Matriz_2.jpg)
 
 ([Aqui se puede insertar una gráfica de curva ROC]): https://sl.bing.net/izGiltHtSkm
 
