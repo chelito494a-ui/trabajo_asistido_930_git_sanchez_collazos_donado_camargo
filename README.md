@@ -1,6 +1,6 @@
-![Banner](Banner%20.png)
-## Detección de enfermedades en la piel
-### Realizado por los investigadores Jhonier Francisco Guerrero Gaviria y Brayan David Loaiza Burbano
+![Banner](Banner.png)
+### ¿EN QUE CONSISTE EL PROYECTO?
+
 <p >
    Este proyecto consiste en el desarrollo y entrenamiento de un sistema de Visión Computacional diseñado para el análisis automatizado de imágenes dermatológicas. Utiliza algoritmos de Aprendizaje Profundo (Deep Learning), específicamente Redes Neuronales Convolucionales (CNN), para identificar patrones visuales, texturas y anomalías en la piel que son característicos de diversas condiciones médicas.
   
