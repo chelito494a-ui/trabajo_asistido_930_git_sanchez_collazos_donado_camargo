@@ -36,22 +36,19 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 <p>
    El sistema se fundamenta en CNN, arquitecturas inspiradas en el córtex visual. Las capas convolucionales detectan patrones jerárquicos: desde bordes y texturas en las primeras capas hasta estructuras dermatoscópicas complejas (redes pigmentarias, glóbulos) en las más profundas. Las capas de pooling reducen dimensionalidad y las capas completamente conectadas realizan la clasificación final.
 
-([Aqui se puede insertar un diagrama de arquitectura CNN])
-([Aqui se puede insertar una visualización de activaciones que muestre la jerarquía de características])
+([Aqui se puede insertar un diagrama de arquitectura CNN]): https://sl.bing.net/j3Av29zM0M8
 </p>
 
 ### Transfer Learning: Fundamentos y aplicación
 <p>
    Dada la escasez de datos médicos etiquetados, se emplea transfer learning: se parte de redes pre‑entrenadas en ImageNet. En una primera fase (feature extraction) se congelan las capas convolucionales y se entrenan solo las capas clasificadoras. En una segunda fase (fine‑tuning) se descongelan selectivamente algunas capas para ajustarlas al dominio dermatológico con tasas de aprendizaje reducidas.
 
-([Aqui se puede insertar un esquema del proceso de transfer learning])
+([Aqui se puede insertar un esquema del proceso de transfer learning]): https://www.researchgate.net/publication/356770285/figure/fig1/AS:1098488339279878@1638911437359/Figura-3-Proceso-de-aprendizaje-machine-learning-y-transfer-learning.png
 </p>
 
 ### Aumento de datos como estrategia de regularización
 <p>
    Para maximizar la diversidad del entrenamiento se aplican transformaciones sintéticas: rotaciones, reflejos, ajustes de brillo y contraste, distorsiones elásticas. Cada imagen se presenta con variaciones en cada época, reduciendo el sobreajuste.
-
-([Aqui se puede insertar un collage de aumentaciones sobre una misma imagen])
 </p>
 
 ---
@@ -83,12 +80,11 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 
 
 <p>
-   ([Aqui se puede insertar un diagrama de matriz de confusión])
-([Aqui se puede insertar una gráfica de curva ROC])
+   ([Aqui se puede insertar un diagrama de matriz de confusión]): https://dialektico.com/wp-content/uploads/2025/01/MEMC_Matriz_2.jpg
+
+([Aqui se puede insertar una gráfica de curva ROC]): https://sl.bing.net/izGiltHtSkm
 
 El sistema se concibe como una herramienta de apoyo diagnóstico, no como sustituto del especialista, permitiendo priorizar casos sospechosos y reducir la carga cognitiva en la atención primaria.
-
-([Aqui se puede insertar un diagrama de flujo del flujo de trabajo con triaje digital])
 </p>
 
 
