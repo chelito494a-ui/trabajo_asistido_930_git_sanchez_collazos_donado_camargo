@@ -24,29 +24,41 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 ### Limitaciones del enfoque tradicional
 <p>
  El enfoque tradicional presentaba múltiples limitaciones: alta variabilidad inter‑observador (concordancias del 60‑70% en lesiones pigmentadas), dependencia de la experiencia del especialista, barreras de acceso en zonas con escasez de dermatólogos y diagnóstico tardío. El melanoma detectado en etapa temprana alcanza >95% de supervivencia a 5 años, mientras que en etapas avanzadas la supervivencia cae por debajo del 20%.
-
-([Aqui se puede insertar un gráfico de supervivencia del melanoma por estadio])
 </p>
 
 ![Logo](https://conecta.msd.com.ar/wp-content/uploads/sites/11/2022/10/melanoma-grafico.jpg)
+
+<div align="center">
+  <img src="https://conecta.msd.com.ar/wp-content/uploads/sites/11/2022/10/melanoma-grafico.jpg" width="70%" alt="Supervivencia del melanoma por estadio" />
+  <br />
+  <em>Supervivencia a 5 años según el espesor del melanoma al momento del diagnóstico. Fuente: MSD Connect.</em>
+</div>
+
 
 ---
 ## 2. Fundamentos Técnicos: Visión por Computadora y Aprendizaje Profundo
 ### Redes Neuronales Convolucionales (CNN)
 <p>
    El sistema se fundamenta en CNN, arquitecturas inspiradas en el córtex visual. Las capas convolucionales detectan patrones jerárquicos: desde bordes y texturas en las primeras capas hasta estructuras dermatoscópicas complejas (redes pigmentarias, glóbulos) en las más profundas. Las capas de pooling reducen dimensionalidad y las capas completamente conectadas realizan la clasificación final.
-
-([Aqui se puede insertar un diagrama de arquitectura CNN]):
 </p>
 
 ![Logo](https://github.com/nelsondonado/Ciencia-de-datos/blob/main/proceso.png)
 
+<div align="center">
+  <img src="https://github.com/nelsondonado/Ciencia-de-datos/blob/main/proceso.png" width="80%" alt="Diagrama de arquitectura CNN" />
+  <br />
+  <em>Arquitectura típica de una Red Neuronal Convolucional. Fuente: elaboración propia.</em>
+</div> 
+
 ### Transfer Learning: Fundamentos y aplicación
 <p>
    Dada la escasez de datos médicos etiquetados, se emplea transfer learning: se parte de redes pre‑entrenadas en ImageNet. En una primera fase (feature extraction) se congelan las capas convolucionales y se entrenan solo las capas clasificadoras. En una segunda fase (fine‑tuning) se descongelan selectivamente algunas capas para ajustarlas al dominio dermatológico con tasas de aprendizaje reducidas.
-
-([Aqui se puede insertar un esquema del proceso de transfer learning]): https://www.researchgate.net/publication/356770285/figure/fig1/AS:1098488339279878@1638911437359/Figura-3-Proceso-de-aprendizaje-machine-learning-y-transfer-learning.png
 </p>
+<div align="center">
+  <img src="https://www.researchgate.net/publication/356770285/figure/fig1/AS:1098488339279878@1638911437359/Figura-3-Proceso-de-aprendizaje-machine-learning-y-transfer-learning.png" width="80%" alt="Esquema de Transfer Learning" />
+  <br />
+  <em>Proceso de transfer learning: desde una red pre‑entrenada en ImageNet hasta la adaptación al dominio dermatológico. Fuente: ResearchGate.</em>
+</div>
 
 ### Aumento de datos como estrategia de regularización
 <p>
@@ -85,13 +97,35 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 
    
 ![Texto alternativo](MEMC_Matriz_2.jpg)
+<div align="center">
+  <img src="MEMC_Matriz_2.jpg" width="55%" alt="Matriz de confusión del modelo" />
+  <br />
+  <em>Matriz de confusión obtenida en el conjunto de validación.</em>
+</div>
 
 ([Aqui se puede insertar una gráfica de curva ROC]): https://sl.bing.net/izGiltHtSkm
+<div align="center">
+  <img src="https://sl.bing.net/izGiltHtSkm" width="55%" alt="Curva ROC multiclase" />
+  <br />
+  <em>Curva ROC y área bajo la curva (AUC) para cada clase.</em>
+</div>
+
 
 El sistema se concibe como una herramienta de apoyo diagnóstico, no como sustituto del especialista, permitiendo priorizar casos sospechosos y reducir la carga cognitiva en la atención primaria.
 </p>
 
 
+---
+
+## 📚 Referencias
+
+1. Esteva, A., Kuprel, B., Novoa, R. A., Ko, J., Swetter, S. M., Blau, H. M., & Thrun, S. (2017). Dermatologist-level classification of skin cancer with deep neural networks. *Nature*, 542(7639), 115-118.
+
+2. Haenssle, H. A., Fink, C., Schneiderbauer, R., Toberer, F., Buhl, T., Blum, A., ... & Uhlmann, L. (2018). Man against machine: diagnostic performance of a deep learning convolutional neural network for dermal melanoma recognition in comparison to 58 dermatologists. *Annals of Oncology*, 29(8), 1836-1842.
+
+3. Tschandl, P., Codella, N., Akay, B. N., Argenziano, G., Braun, R. P., Cabo, H., ... & Kittler, H. (2020). Comparison of the accuracy of human readers versus machine-learning algorithms for pigmented skin lesion classification: an open, web-based, international, diagnostic study. *The Lancet Digital Health*, 2(1), e28-e37.
+
+4. Brinker, T. J., Hekler, A., Enk, A. H., Berking, C., Haferkamp, S., Hauschild, A., ... & Utikal, J. S. (2019). A convolutional neural network trained with dermoscopic images performed on par with 145 dermatologists in a clinical melanoma classification scenario. *European Journal of Cancer*, 111, 48-54.
 
 
 
