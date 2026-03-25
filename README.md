@@ -13,18 +13,17 @@
 </p>
 
 
+# La Ciencia Detrás del Proyecto: Fundamentos Teóricos y Contexto
 
-#La Ciencia Detrás del Proyecto: Fundamentos Teóricos y Contexto
-
-##1. El Problema Clínico: Diagnóstico Visual en Dermatología
-###Abordaje tradicional del diagnóstico dermatológico
+## 1. El Problema Clínico: Diagnóstico Visual en Dermatología
+### Abordaje tradicional del diagnóstico dermatológico
 <p >
    Previo al desarrollo de este proyecto, el diagnóstico de enfermedades cutáneas se fundamentaba en un proceso clínico que combinaba la inspección visual directa, la evaluación de criterios clínicos estandarizados y, en casos de sospecha, el análisis histopatológico mediante biopsia. Los especialistas realizaban la evaluación de lesiones cutáneas utilizando dermatoscopios, dispositivos de aumento que permiten visualizar estructuras subepidérmicas no apreciables a simple vista, aplicando sistemas de clasificación como el criterio ABCD (Asimetría, Bordes, Color, Diámetro) para la identificación de melanomas.
 
 ([Aqui se puede insertar una imagen que muestre la comparación entre una lesión observada a simple vista versus la misma lesión observada con dermatoscopio, evidenciando las estructuras subepidérmicas que son visibles únicamente con aumento])
 </p>
 
-###Limitaciones del enfoque tradicional
+### Limitaciones del enfoque tradicional
 <p>
    El abordaje tradicional presentaba múltiples limitaciones que este proyecto busca atender. En primer lugar, la subjetividad inherente al diagnóstico visual generaba variabilidad inter-observador significativa, con estudios que reportan concordancias entre dermatólogos tan bajas como el 60-70% para lesiones pigmentadas. En segundo lugar, la precisión diagnóstica dependía fuertemente de la experiencia clínica del especialista, existiendo diferencias sustanciales entre dermatólogos generales y subespecialistas en dermatoscopia oncológica.
 
@@ -36,8 +35,8 @@ En tercer lugar, las barreras de acceso a atención especializada constituían u
 </p>
 
 
-##2. Fundamentos Técnicos: Visión por Computadora y Aprendizaje Profundo
-###Redes Neuronales Convolucionales (CNN)
+## 2. Fundamentos Técnicos: Visión por Computadora y Aprendizaje Profundo
+### Redes Neuronales Convolucionales (CNN)
 <p>
    El sistema desarrollado por los investigadores se fundamenta en Redes Neuronales Convolucionales, una clase de modelos de aprendizaje profundo inspirados en la organización del córtex visual de los mamíferos. Estas arquitecturas están diseñadas específicamente para procesar datos con estructura de cuadrícula, como las imágenes dermatológicas.
 
@@ -50,7 +49,7 @@ Las CNN operan a través de tres componentes fundamentales. Las capas convolucio
 Las capas de pooling reducen la dimensionalidad espacial, disminuyendo la carga computacional y otorgando invarianza traslacional. Finalmente, las capas completamente conectadas integran las características aprendidas para realizar la clasificación final mediante combinaciones no lineales.
 </p>
 
-###Transfer Learning: Fundamentos y aplicación
+### Transfer Learning: Fundamentos y aplicación
 <p>
    El entrenamiento de una CNN desde cero requiere conjuntos de datos masivos, recursos computacionales extensos y presenta alto riesgo de sobreajuste cuando los datos son limitados. Ante esta realidad, los investigadores implementaron la estrategia de transfer learning, que consiste en aprovechar redes neuronales previamente entrenadas en conjuntos masivos como ImageNet (14 millones de imágenes, 1000 categorías) para transferir el conocimiento adquirido hacia el dominio dermatológico.
 
@@ -59,7 +58,7 @@ Las capas de pooling reducen la dimensionalidad espacial, disminuyendo la carga 
 Esta estrategia se implementó mediante dos fases. En la primera fase, denominada feature extraction, se congelaron las capas convolucionales pre-entrenadas y se entrenaron únicamente las capas clasificadoras añadidas. En la segunda fase, conocida como fine-tuning, se descongelaron selectivamente algunas de las últimas capas convolucionales para reentrenarlas con tasas de aprendizaje reducidas, permitiendo que la red ajuste sus detectores de características para capturar patrones específicamente dermatológicos.
 </p>
 
-###Aumento de datos como estrategia de regularización
+### Aumento de datos como estrategia de regularización
 <p>
    Dada la limitación inherente de los datasets médicos, los investigadores implementaron técnicas de aumento de datos para maximizar la diversidad del conjunto de entrenamiento. Mediante transformaciones que incluyen rotaciones, reflejos horizontales y verticales, desplazamientos, ajustes de brillo y contraste, y distorsiones elásticas, cada imagen de entrenamiento se presenta al modelo con variaciones sintéticas en cada época, exponiéndolo a una diversidad mayor que la disponible originalmente y reduciendo el riesgo de sobreajuste.
 
@@ -67,15 +66,35 @@ Esta estrategia se implementó mediante dos fases. En la primera fase, denominad
 </p>
 
 
-##3. Métricas de Evaluación en Contexto Clínico
+## 3. Métricas de Evaluación en Contexto Clínico
 <p>
    La evaluación del sistema desarrollado no se limitó a métricas generalistas como la precisión global, sino que se orientó hacia indicadores con significado clínico específico, reconociendo que las consecuencias de los errores diagnósticos no son simétricas.
 </p>
-   - ####Sensibilidad (Recall):
-   <p>
+   
+   #### - Sensibilidad (Recall):
+    <p>
       Definida como la proporción de verdaderos positivos sobre el total de casos positivos reales. Esta métrica adquiere prioridad crítica para lesiones malignas como el melanoma, donde un falso negativo (no detectar una lesión maligna) puede tener consecuencias fatales para el paciente.
-   </p>
-   - ####
+      </p>
+   
+   #### - Especificidad:
+    <p>
+       Definida como la proporción de verdaderos negativos sobre el total de casos negativos reales. Su relevancia radica en evitar procedimientos invasivos innecesarios (biopsias) y reducir la ansiedad generada por falsas alarmas.
+       ([Aqui se puede insertar un diagrama que explique visualmente los conceptos de verdaderos positivos, falsos positivos, verdaderos negativos y falsos negativos utilizando una matriz de confusión])
+       </p>
+
+   #### - Área bajo la curva ROC (AUC-ROC):
+     <p>
+        Esta métrica evalúa el poder discriminatorio del modelo independientemente del umbral de decisión seleccionado, proporcionando una medida integral de su capacidad para distinguir entre clases.
+     ([Aqui se puede insertar una gráfica que muestre una curva ROC típica, resaltando el área bajo la curva y explicando su interpretación])
+     </p>
+
+ 
+   #### - Valor Predictivo Negativo (VPN):
+    <p>
+      Definido como la proporción de verdaderos negativos sobre el total de negativos clasificados por el modelo. Esta métrica resulta particularmente relevante para un sistema de triaje, pues indica la confianza que puede depositarse cuando el modelo clasifica una lesión como benigna.
+      El sistema desarrollado no pretende reemplazar al dermatólogo, sino constituirse como una herramienta de apoyo diagnóstico que permita priorizar casos sospechosos, reducir la carga cognitiva del especialista y acelerar la derivación de lesiones que requieren atención inmediata.
+      ([Aqui se puede insertar un diagrama de flujo que ilustre el flujo de trabajo propuesto: desde la captura de imagen, pasando por el sistema de triaje basado en CNN, hasta la derivación a especialista según el nivel de sospecha])
+      </p>
 
 
 
