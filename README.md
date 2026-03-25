@@ -26,6 +26,7 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
  El enfoque tradicional presentaba múltiples limitaciones: alta variabilidad inter‑observador (concordancias del 60‑70% en lesiones pigmentadas), dependencia de la experiencia del especialista, barreras de acceso en zonas con escasez de dermatólogos y diagnóstico tardío. El melanoma detectado en etapa temprana alcanza >95% de supervivencia a 5 años, mientras que en etapas avanzadas la supervivencia cae por debajo del 20%.
 
 ([Aqui se puede insertar un gráfico de supervivencia del melanoma por estadio])
+  ![Logo]https://conecta.msd.com.ar/wp-content/uploads/sites/11/2022/10/melanoma-grafico.jpg
 </p>
 
 
