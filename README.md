@@ -1,15 +1,10 @@
 ![Banner](Banner.png)
-### ¿EN QUE CONSISTE EL PROYECTO?
+## 🔍 ¿En qué consiste el proyecto?
 
-<p >
-   Este proyecto consiste en el desarrollo y entrenamiento de un sistema de Visión Computacional diseñado para el análisis automatizado de imágenes dermatológicas. Utiliza algoritmos de Aprendizaje Profundo (Deep Learning), específicamente Redes Neuronales Convolucionales (CNN), para identificar patrones visuales, texturas y anomalías en la piel que son característicos de diversas condiciones médicas.
-  
-  El sistema aborda la dificultad del diagnóstico visual manual, el cual puede ser subjetivo y propenso a errores humanos, especialmente en etapas tempranas. Resuelve la necesidad de una herramienta de triaje digital que permita filtrar casos sospechosos de manera rápida, consistente y escalable, reduciendo la carga de trabajo en la inspección inicial de imágenes.
-  
-  El objetivo principal es desarrollar un modelo de clasificación de imágenes capaz de detectar e identificar con alta precisión distintas enfermedades cutáneas, proporcionando una etiqueta diagnóstica preliminar que sirva como apoyo a la toma de decisiones clínicas.
-  
-  La relevancia de este proyecto radica en la detección temprana, factor crítico para el éxito del tratamiento en enfermedades graves como el melanoma. Además, democratiza el acceso a evaluaciones preliminares de salud en zonas con escasez de especialistas, permitiendo que un análisis técnico basado en datos mejore significativamente los tiempos de respuesta y la precisión diagnóstica en dermatología.
-</p>
+Este proyecto consiste en un sistema de **Visión Computacional** que automatiza el análisis dermatológico mediante **Redes Neuronales Convolucionales (CNN)** para identificar anomalías cutáneas. A través del entrenamiento de modelos de **Aprendizaje Profundo (Deep Learning)**, se busca crear una herramienta que funcione como un asistente de diagnóstico preciso. Con el fin de proporcionar una etiqueta diagnóstica preliminar que sirva de apoyo a los profesionales de la salud, permitiendo que la tecnología traduzca patrones visuales complejos en información clínica accionable y confiable. 
+
+Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar la precisión del diagnóstico inicial, econvirtiendose en una herramienta esencial para modernizar la atención médica preventiva a nivel global.
+
 
 
 # La Ciencia Detrás del Proyecto: Fundamentos Teóricos y Contexto
