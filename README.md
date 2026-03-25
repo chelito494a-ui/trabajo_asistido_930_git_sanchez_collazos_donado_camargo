@@ -26,9 +26,9 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
  El enfoque tradicional presentaba múltiples limitaciones: alta variabilidad inter‑observador (concordancias del 60‑70% en lesiones pigmentadas), dependencia de la experiencia del especialista, barreras de acceso en zonas con escasez de dermatólogos y diagnóstico tardío. El melanoma detectado en etapa temprana alcanza >95% de supervivencia a 5 años, mientras que en etapas avanzadas la supervivencia cae por debajo del 20%.
 
 ([Aqui se puede insertar un gráfico de supervivencia del melanoma por estadio])
-  ![Logo]https://conecta.msd.com.ar/wp-content/uploads/sites/11/2022/10/melanoma-grafico.jpg
 </p>
 
+![Logo](https://conecta.msd.com.ar/wp-content/uploads/sites/11/2022/10/melanoma-grafico.jpg)
 
 ---
 ## 2. Fundamentos Técnicos: Visión por Computadora y Aprendizaje Profundo
@@ -36,8 +36,10 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 <p>
    El sistema se fundamenta en CNN, arquitecturas inspiradas en el córtex visual. Las capas convolucionales detectan patrones jerárquicos: desde bordes y texturas en las primeras capas hasta estructuras dermatoscópicas complejas (redes pigmentarias, glóbulos) en las más profundas. Las capas de pooling reducen dimensionalidad y las capas completamente conectadas realizan la clasificación final.
 
-([Aqui se puede insertar un diagrama de arquitectura CNN]): https://sl.bing.net/j3Av29zM0M8
+([Aqui se puede insertar un diagrama de arquitectura CNN]):
 </p>
+
+![Logo](https://sl.bing.net/j3Av29zM0M8)
 
 ### Transfer Learning: Fundamentos y aplicación
 <p>
