@@ -15,12 +15,13 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 <p >
    Previo al desarrollo de este proyecto, el diagnóstico de enfermedades cutáneas se fundamentaba en la inspección visual directa, el uso de criterios clínicos estandarizados como el sistema ABCD (Asimetría, Bordes, Color, Diámetro) y, en casos de sospecha, la confirmación histopatológica mediante biopsia. Los especialistas realizaban la evaluación con dermatoscopios, dispositivos de aumento que permiten visualizar estructuras subepidérmicas no apreciables a simple vista.
 </p>
+
 <div align="center">
-  <img src="lesion.jpg" width="35%" alt="Lesión a simple vista" />
-  <img src="lesion_dermatoscopio.jpeg" width="35%" alt="Misma lesión con dermatoscopio" />
-  <br />
-  <em>Izquierda: Lesión observada a simple vista. Derecha: Misma lesión bajo dermatoscopio.</em>
+  <img src="https://github.com/nelsondonado/Ciencia-de-datos/blob/main/lesion.jpg" width="45%"/>
+  &nbsp;
+  <img src="https://github.com/nelsondonado/Ciencia-de-datos/blob/main/lesion_dermatoscopio.jpeg" width="45%"/>
 </div>
+
 
 ### Limitaciones del enfoque tradicional
 <p>
