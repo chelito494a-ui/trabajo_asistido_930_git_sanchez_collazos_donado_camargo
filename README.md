@@ -43,10 +43,10 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 </p>
 
 <div align="center">
-  <img src="estructura CNN" width="80%" alt="Diagrama de arquitectura CNN" />
+  <img src="estructura CNN.jpeg" width="80%" alt="Diagrama de arquitectura CNN" />
   <br />
-  <em>Arquitectura típica de una Red Neuronal Convolucional.</em>
-</div> 
+  <em>Arquitectura típica de una Red Neuronal Convolucional. Fuente: elaboración propia.</em>
+</div>
 
 
 ### Transfer Learning: Fundamentos y aplicación
