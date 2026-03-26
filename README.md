@@ -42,7 +42,7 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 </p>
 
 <div align="center">
-  <img src="https://github.com/nelsondonado/Ciencia-de-datos/blob/main/proceso.png" width="80%" alt="Diagrama de arquitectura CNN" />
+  <img src="estructura CNN" width="80%" alt="Diagrama de arquitectura CNN" />
   <br />
   <em>Arquitectura típica de una Red Neuronal Convolucional. Fuente: elaboración propia.</em>
 </div> 
