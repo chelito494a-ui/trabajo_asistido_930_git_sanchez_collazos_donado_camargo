@@ -119,6 +119,27 @@ El sistema se concibe como una herramienta de apoyo diagnóstico, no como sustit
 
 ---
 
+## 📈 4. Resultados, impacto y futuro
+
+Los resultados de este proyecto muestran que el uso de inteligencia artificial para analizar imágenes de la piel puede ser muy preciso al detectar enfermedades como el melanoma. Gracias a diferentes formas de medir su desempeño, se ha comprobado que el sistema puede identificar correctamente las lesiones peligrosas y disminuir los errores, especialmente los casos en los que no se detecta una enfermedad. Esto es muy importante, ya que encontrar estas enfermedades a tiempo puede salvar vidas.
+
+### 🌍 Impacto en la sociedad actual
+
+- Apoya a los especialistas en la toma de decisiones clínicas 
+- Reduce la carga operativa en hospitales 
+- Mejora la precisión del diagnóstico inicial 
+- Facilita el acceso a la salud en zonas con pocos dermatólogos 
+
+### 🔮 Futuro
+
+El  avance en la medicina será notorio con: 
+Diagnósticos más rápidos y automatizados, mayor precisión gracias a mejores modelos de IA, integración en sistemas médicos y aplicaciones de salud, avances en medicina preventiva y personalizada 
+
+> ⚠️ **Importante Recordar:** Este sistema no debe reemplazar a los médicos, sino que puede actúa como una herramienta de apoyo para mejorar la calidad y eficiencia del diagnóstico.
+
+---
+
+
 ## 📚 Referencias
 
 1. Esteva, A., Kuprel, B., Novoa, R. A., Ko, J., Swetter, S. M., Blau, H. M., & Thrun, S. (2017). Dermatologist-level classification of skin cancer with deep neural networks. *Nature*, 542(7639), 115-118.
