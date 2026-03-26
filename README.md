@@ -44,7 +44,7 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 <div align="center">
   <img src="estructura CNN" width="80%" alt="Diagrama de arquitectura CNN" />
   <br />
-  <em>Arquitectura típica de una Red Neuronal Convolucional. Fuente: elaboración propia.</em>
+  <em>Arquitectura típica de una Red Neuronal Convolucional.</em>
 </div> 
 
 
@@ -99,7 +99,7 @@ Por consiguiente ayuda a reducir la carga operativa de los hospitales y mejorar 
 <div align="center">
   <img src="MEMC_Matriz_2.jpg" width="55%" alt="Matriz de confusión del modelo" />
   <br />
-  <em>Matriz de confusión obtenida en el conjunto de validación.</em>
+  <em>Matriz de confusión.</em>
 </div>
 
 <p>
